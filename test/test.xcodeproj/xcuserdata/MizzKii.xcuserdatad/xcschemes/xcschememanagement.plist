@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ReCode.xcscheme</key>
+		<key>test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>577475111ADB88AF00BAFEF5</key>
+		<key>57B6388C1AE8F72500F4368B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>577475261ADB88AF00BAFEF5</key>
+		<key>57B638A41AE8F72500F4368B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "577475111ADB88AF00BAFEF5"
-               BuildableName = "ReCode.app"
-               BlueprintName = "ReCode"
-               ReferencedContainer = "container:ReCode.xcodeproj">
+               BlueprintIdentifier = "57B638521AE8EDC100F4368B"
+               BuildableName = "testkob.app"
+               BlueprintName = "testkob"
+               ReferencedContainer = "container:testkob.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "577475261ADB88AF00BAFEF5"
-               BuildableName = "ReCodeTests.xctest"
-               BlueprintName = "ReCodeTests"
-               ReferencedContainer = "container:ReCode.xcodeproj">
+               BlueprintIdentifier = "57B6386A1AE8EDC100F4368B"
+               BuildableName = "testkobTests.xctest"
+               BlueprintName = "testkobTests"
+               ReferencedContainer = "container:testkob.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "577475261ADB88AF00BAFEF5"
-               BuildableName = "ReCodeTests.xctest"
-               BlueprintName = "ReCodeTests"
-               ReferencedContainer = "container:ReCode.xcodeproj">
+               BlueprintIdentifier = "57B6386A1AE8EDC100F4368B"
+               BuildableName = "testkobTests.xctest"
+               BlueprintName = "testkobTests"
+               ReferencedContainer = "container:testkob.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "577475111ADB88AF00BAFEF5"
-            BuildableName = "ReCode.app"
-            BlueprintName = "ReCode"
-            ReferencedContainer = "container:ReCode.xcodeproj">
+            BlueprintIdentifier = "57B638521AE8EDC100F4368B"
+            BuildableName = "testkob.app"
+            BlueprintName = "testkob"
+            ReferencedContainer = "container:testkob.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "577475111ADB88AF00BAFEF5"
-            BuildableName = "ReCode.app"
-            BlueprintName = "ReCode"
-            ReferencedContainer = "container:ReCode.xcodeproj">
+            BlueprintIdentifier = "57B638521AE8EDC100F4368B"
+            BuildableName = "testkob.app"
+            BlueprintName = "testkob"
+            ReferencedContainer = "container:testkob.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "577475111ADB88AF00BAFEF5"
-            BuildableName = "ReCode.app"
-            BlueprintName = "ReCode"
-            ReferencedContainer = "container:ReCode.xcodeproj">
+            BlueprintIdentifier = "57B638521AE8EDC100F4368B"
+            BuildableName = "testkob.app"
+            BlueprintName = "testkob"
+            ReferencedContainer = "container:testkob.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		577475181ADB88AF00BAFEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577475171ADB88AF00BAFEF5 /* AppDelegate.swift */; };
 		5774751A1ADB88AF00BAFEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577475191ADB88AF00BAFEF5 /* ViewController.swift */; };
-		5774751D1ADB88AF00BAFEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5774751B1ADB88AF00BAFEF5 /* Main.storyboard */; };
 		5774751F1ADB88AF00BAFEF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5774751E1ADB88AF00BAFEF5 /* Images.xcassets */; };
 		577475221ADB88AF00BAFEF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577475201ADB88AF00BAFEF5 /* LaunchScreen.xib */; };
 		5774752E1ADB88AF00BAFEF5 /* ReCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774752D1ADB88AF00BAFEF5 /* ReCodeTests.swift */; };
+		5781F8201ADBB12800E4E141 /* GenCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781F81F1ADBB12800E4E141 /* GenCode.swift */; };
+		57BA03FB1ADBEEAF001BD81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BA03F91ADBEEAF001BD81F /* Main.storyboard */; };
+		57C915A91AEE76D900FC96BD /* whoos_wipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57C915A81AEE76D900FC96BD /* whoos_wipe.mp3 */; };
+		57C915AB1AEE893C00FC96BD /* on_top_of_the_world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57C915AA1AEE893C00FC96BD /* on_top_of_the_world.mp3 */; };
+		A9591B4F1AE89D6C00172F0B /* Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9591B4D1AE89D6C00172F0B /* Core_Data.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +34,16 @@
 		577475161ADB88AF00BAFEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577475171ADB88AF00BAFEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		577475191ADB88AF00BAFEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5774751C1ADB88AF00BAFEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5774751E1ADB88AF00BAFEF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		577475211ADB88AF00BAFEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		577475271ADB88AF00BAFEF5 /* ReCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5774752C1ADB88AF00BAFEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5774752D1ADB88AF00BAFEF5 /* ReCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCodeTests.swift; sourceTree = "<group>"; };
+		5781F81F1ADBB12800E4E141 /* GenCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenCode.swift; sourceTree = "<group>"; };
+		57BA03FA1ADBEEAF001BD81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C915A81AEE76D900FC96BD /* whoos_wipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoos_wipe.mp3; sourceTree = "<group>"; };
+		57C915AA1AEE893C00FC96BD /* on_top_of_the_world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = on_top_of_the_world.mp3; sourceTree = "<group>"; };
+		A9591B4E1AE89D6C00172F0B /* Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,15 @@
 		577475141ADB88AF00BAFEF5 /* ReCode */ = {
 			isa = PBXGroup;
 			children = (
+				57C915A71AEE763300FC96BD /* Sounds */,
 				577475171ADB88AF00BAFEF5 /* AppDelegate.swift */,
 				577475191ADB88AF00BAFEF5 /* ViewController.swift */,
-				5774751B1ADB88AF00BAFEF5 /* Main.storyboard */,
+				57BA03F91ADBEEAF001BD81F /* Main.storyboard */,
 				5774751E1ADB88AF00BAFEF5 /* Images.xcassets */,
 				577475201ADB88AF00BAFEF5 /* LaunchScreen.xib */,
 				577475151ADB88AF00BAFEF5 /* Supporting Files */,
+				5781F81F1ADBB12800E4E141 /* GenCode.swift */,
+				A9591B4D1AE89D6C00172F0B /* Core_Data.xcdatamodeld */,
 			);
 			path = ReCode;
 			sourceTree = "<group>";
@@ -110,6 +121,15 @@
 				5774752C1ADB88AF00BAFEF5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C915A71AEE763300FC96BD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				57C915AA1AEE893C00FC96BD /* on_top_of_the_world.mp3 */,
+				57C915A81AEE76D900FC96BD /* whoos_wipe.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5774751D1ADB88AF00BAFEF5 /* Main.storyboard in Resources */,
+				57C915A91AEE76D900FC96BD /* whoos_wipe.mp3 in Resources */,
+				57BA03FB1ADBEEAF001BD81F /* Main.storyboard in Resources */,
+				57C915AB1AEE893C00FC96BD /* on_top_of_the_world.mp3 in Resources */,
 				577475221ADB88AF00BAFEF5 /* LaunchScreen.xib in Resources */,
 				5774751F1ADB88AF00BAFEF5 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9591B4F1AE89D6C00172F0B /* Core_Data.xcdatamodeld in Sources */,
+				5781F8201ADBB12800E4E141 /* GenCode.swift in Sources */,
 				5774751A1ADB88AF00BAFEF5 /* ViewController.swift in Sources */,
 				577475181ADB88AF00BAFEF5 /* AppDelegate.swift in Sources */,
 			);
@@ -236,20 +260,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5774751B1ADB88AF00BAFEF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5774751C1ADB88AF00BAFEF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		577475201ADB88AF00BAFEF5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				577475211ADB88AF00BAFEF5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		57BA03F91ADBEEAF001BD81F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BA03FA1ADBEEAF001BD81F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +435,7 @@
 				577475331ADB88AF00BAFEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		577475341ADB88AF00BAFEF5 /* Build configuration list for PBXNativeTarget "ReCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,8 +444,22 @@
 				577475361ADB88AF00BAFEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9591B4D1AE89D6C00172F0B /* Core_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9591B4E1AE89D6C00172F0B /* Core_Data.xcdatamodel */,
+			);
+			currentVersion = A9591B4E1AE89D6C00172F0B /* Core_Data.xcdatamodel */;
+			path = Core_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5774750A1ADB88AF00BAFEF5 /* Project object */;
 }

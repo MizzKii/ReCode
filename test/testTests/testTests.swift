@@ -1,15 +1,15 @@
 //
-//  ReCodeTests.swift
-//  ReCodeTests
+//  testTests.swift
+//  testTests
 //
-//  Created by Panudech Chuangnuktum on 4/13/2558 BE.
+//  Created by Panudech Chuangnuktum on 4/23/2558 BE.
 //  Copyright (c) 2558 MizzKii. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class ReCodeTests: XCTestCase {
+class testTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
